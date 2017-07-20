@@ -1,0 +1,53 @@
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .img-fluid {
+        height: 300px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .img-fluid {
+        height: 300px;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .img-fluid {
+        height: 300px;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .img-fluid {
+        height: 400px;
+        
+    }
+}
+
+.img-fluid {
+        object-fit: contain;
+    }
+
+
+.card {
+    margin-bottom: 30px;
+}
+
+#error_msg { 
+    display: none; 
+}
+
+#cart_button {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.navbar {
+    margin-top: 30px;
+}
